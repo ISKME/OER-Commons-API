@@ -1,0 +1,6 @@
+API method for get/set review is ready. Endpoint are:
+
+http://staging.oercommons.org/api/getReview?id=NNN
+http://staging.oercommons.org/api/setReview?id=NNN&review=review_text
+
+You can use both GET or POST methods. If you specify the empty "review" parameter (&review=) then existing review is removed.

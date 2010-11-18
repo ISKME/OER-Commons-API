@@ -1,0 +1,9 @@
+API endpoints are /api/getTags?id=NNN and /api/setTags?id=NNN&tags=tag1,tag2,tag3
+
+getTags returns tags for item with given ID which were added by current user
+
+setTags sets tags for item with given ID. Tags are separated by comma or by newline character (you can use both separators at the same time if you want).  Setting rewrites current tags, so if you want to preserve tags, get them, append, and then set.  Setting to '' removes tags.
+
+You can use both GET and POST methods. You must be logged in to use these API methods (with either oAuth or login/password).
+
+

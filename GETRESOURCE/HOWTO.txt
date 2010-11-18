@@ -1,0 +1,1 @@
+Trivially easy.  Look at the bash scripts for examples.

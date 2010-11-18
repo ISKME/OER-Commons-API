@@ -1,0 +1,8 @@
+API method for get/set rating is ready. Endpoint are:
+
+http://staging.oercommons.org/api/getRating?id=NNN
+http://staging.oercommons.org/api/setRatig?id=NNN&rating=5
+
+Rating must be a digit from 1 to 5.
+
+You can use both GET or POST methods. If you specify the empty "rating" parameter (&rating=) then existing rating is removed.

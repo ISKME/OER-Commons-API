@@ -1,0 +1,3 @@
+Search API is ready and uploaded to staging site. The endpoint is http://staging.oercommons.org/api/search
+
+It accepts all parameters and filters supported by http://www.oercommon.org/search (including batch_start, batch_size and sort_on). Authentication is not required to use this API method.
